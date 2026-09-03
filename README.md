@@ -1,58 +1,89 @@
-# Yatharth Richhariya
-<p style="color: #a6e22e; font-family: monospace; font-size: 1.1em; margin-top: -10px;">
-  <b>@yatharthrichhariya</b>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yatharth Richhariya - GitAscii Profile</title>
+<style>
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+  }
+  .profile {
+    position: relative;
+    width: min(100%, 800px);
+    margin: 0 auto;
+    line-height: 0;
+  }
+  .profile > img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
 
-<table>
-  <tr>
-    <!-- Left Column: Terminal Card -->
-    <td width="48%" valign="top" bgcolor="#0d1117" style="border-radius: 10px; border: 1px solid #30363d; padding: 12px; font-family: monospace;">
-      <div style="margin-bottom: 12px;">
-        <span style="color: #ff5f56; font-size: 16px;">●</span>
-        <span style="color: #ffbd2e; font-size: 16px;">●</span>
-        <span style="color: #27c93f; font-size: 16px;">●</span>
-        <span style="color: #8b949e; font-size: 12px; margin-left: 8px;">yatharthrichhariya@github: ~$ ./portrait.sh</span>
-      </div>
-      <div align="center">
-        <!-- Replace YOUR_IMAGE_URL with the raw URL to your ASCII/pixel art image -->
-        <img src="YOUR_IMAGE_URL" alt="Portrait" width="100%" style="border-radius: 6px; display: block;" />
-      </div>
-      <div style="margin-top: 12px; font-size: 12px; color: #8b949e;">
-        yatharthrichhariya@github:~$ <span style="color: #e6edf3;">whoami</span> <span style="color: #ffa657;">Yatharth Richhariya</span>
-      </div>
-    </td>
+  /* Clickable areas over the ORIGINAL GitAscii social icons.
+     Coordinates are based on your JSON:
+     social-media widget: x=378, y=290, width=416, height=120.
+  */
+  .social-link {
+    position: absolute;
+    top: 300px;
+    width: 95px;
+    height: 95px;
+    display: block;
+    z-index: 10;
+    background: transparent;
+  }
 
-    <!-- Right Column: System Fetch & Badges -->
-    <td width="52%" valign="top" bgcolor="#0d1117" style="border-radius: 10px; border: 1px solid #30363d; padding: 16px;">
-      <pre style="background: transparent; border: none; color: #e6edf3; font-family: 'Courier New', Courier, monospace; font-size: 12px; line-height: 1.5; margin: 0;">
-<span style="color: #a6e22e;">─ yatharthrichhariya@github</span> ────────────────────────────
-. <span style="color: #e5c07b;">Uptime:</span> .................... 11 months, 14 days
-. <span style="color: #e5c07b;">Languages:</span> ............. Python, Jupyter Notebook
+  .github  { left: 435px; }
+  .linkedin { left: 545px; }
+  .email { left: 655px; }
 
-<span style="color: #a6e22e;">─ Contact</span> ──────────────────────────────────────────────
-. <span style="color: #e5c07b;">GitHub:</span> ................ github.com/yatharthrichhariya
+  .social-link:focus {
+    outline: 2px solid #79c0ff;
+    outline-offset: 2px;
+  }
+</style>
+</head>
+<body>
 
-<span style="color: #a6e22e;">─ GitHub Stats</span> ─────────────────────────────────────────
-. <span style="color: #e5c07b;">Repos:</span> .............. 4  |  . <span style="color: #e5c07b;">Stars:</span> .............. 4
-. <span style="color: #e5c07b;">Commits:</span> .......... 156  |  . <span style="color: #e5c07b;">Followers:</span> .......... 5
-      </pre>
+<div class="profile">
 
-      <hr style="border: 0; border-top: 1px solid #21262d; margin: 20px 0 15px 0;" />
+  <!-- EXACT GitAscii-generated design -->
+  <img
+    src="https://gitascii.com/api/yatharthrichhariya?v=1788419744660"
+    alt="Yatharth Richhariya GitAscii Profile"
+  >
 
-      <!-- Social Icons -->
-      <div align="center">
-        <a href="https://github.com/yatharthrichhariya" target="_blank">
-          <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="40" alt="GitHub" />
-        </a>
-        &nbsp;
-        <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" target="_blank">
-          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="40" alt="LinkedIn" />
-        </a>
-        &nbsp;
-        <a href="mailto:YOUR_EMAIL@gmail.com" target="_blank">
-          <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="40" alt="Gmail" />
-        </a>
-      </div>
-    </td>
-  </tr>
-</table>
+  <!-- Invisible clickable overlays -->
+  <a
+    class="social-link github"
+    href="https://github.com/yatharthrichhariya"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="GitHub"
+    title="GitHub">
+  </a>
+
+  <a
+    class="social-link linkedin"
+    href="https://www.linkedin.com/in/yatharth-richhariya"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+    title="LinkedIn">
+  </a>
+
+  <a
+    class="social-link email"
+    href="mailto:yatharthrichhariya@gmail.com"
+    aria-label="Email"
+    title="Email">
+  </a>
+
+</div>
+
+</body>
+</html>
